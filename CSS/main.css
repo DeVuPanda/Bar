@@ -1,0 +1,51 @@
+
+.header{
+    display: block;
+    background-color: #14adee;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+}
+
+.infoAboutBar{
+    display: block;
+    background-color: #6262c7;
+    height: 30px;
+    padding: 2px;
+    text-align: left;
+    line-height: 30px;
+    margin: 0;
+}
+
+.barName{
+    display: block;
+    background-color: #6262c7;
+    height: 30px;
+    padding: 2px;
+    text-align: left;
+    margin: 0;
+}
+
+.barDescription{
+    display: block;
+    background-color: #6262c7;
+    height: 80px;
+    padding:2px;
+    text-align: left;
+    margin: 0;
+}
+
+.menu{
+    display: block;
+    background-color: aqua;
+    height: 30px;
+    padding: 2px;
+    text-align: left;
+    margin: 0;
+}
+.alcohol, .food{
+    height: 120px;
+    width: 120px;
+}
