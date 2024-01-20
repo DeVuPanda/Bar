@@ -10,7 +10,15 @@
 </head>
 <body>
     <h3 class="header">Сторінка з відомостями про бар</h3>
-    <p class="infoAboutBar"><b>Інформація про бар:</b></p>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#infoAboutBar">Info</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+    <p id="infoAboutBar" class="infoAboutBar"><b>Інформація про бар:</b></p>
     <div>
         <p class="barName"><i>Назва:</i> "Зілля та Зерна"</p><br>
         <p class="barDescription"><i>Опис:</i>
@@ -19,24 +27,34 @@
             Наше меню пропонує великий вибір авторських коктейлів, кращих вин і пива різних сортів. Також у нас є невеликий вибір закусок, які ідеально підійдуть до вашого вибору напою.
             Завжди готові вам надати найкращий сервіс та зробити ваше відвідування "Зілля та Зерна" незабутнім!</p>
     </div>
-    <p class="menu"><i><b>Меню:</b></i></p>
-    <ul>
-       Напої:
-        <li>Пиво <img class="alcohol" src="Photos/пиво.png" alt="We can't show you the photo, sorry"></li>
-        <li>Вино <img class="alcohol" src="Photos/вино.png" alt="We can't show you the photo, sorry"></li>
-        <li>Самбука <img class="alcohol" src="Photos/самбука.jpg" alt="We can't show you the photo, sorry"></li>
-        <li>Горілка <img class="alcohol" src="Photos/горілка.jpg" alt="We can't show you the photo, sorry"></li>
-        <li>Коньяк <img class="alcohol" src="Photos/коньяк.webp" alt="We can't show you the photo, sorry"></li>
-        <li>Віскі <img class="alcohol" src="Photos/віскі.webp" alt="We can't show you the photo, sorry"></li>
-    </ul>
-       Гарячі страви:
-    <ul>
-        <li>Картопля фрі <img class="food" src="Photos/картопля_фрі.jpg" alt="We can't show you the photo, sorry"></li>
-        <li>Бургер <img class="food" src="Photos/бургер.jpg" alt="We can't show you the photo, sorry"></li>
-        <li>Нагетси <img class="food" src="Photos/нагетси.jpg" alt="We can't show you the photo, sorry"></li>
-        <li>Цибулеві кільця <img class="food" src="Photos/цибулеві_кільця.jpg" alt="We can't show you the photo, sorry"></li>
-        <li>Сирне плато <img class="food" src="Photos/сирне_плато.jpg" alt="We can't show you the photo, sorry"></li>
+    <p id="menu" class="menu"><i><b>Меню:</b></i></p>
+    <div>
+        <b>Напої:</b>
+        <p>Пиво <img class="alcohol" src="Photos/пиво.png" alt="We can't show you the photo, sorry"></p>
+        <p>Вино <img class="alcohol" src="Photos/вино.png" alt="We can't show you the photo, sorry"></p>
+        <p>Самбука <img class="alcohol" src="Photos/самбука.jpg" alt="We can't show you the photo, sorry"></p>
+        <p>Горілка <img class="alcohol" src="Photos/горілка.jpg" alt="We can't show you the photo, sorry"></p>
+        <p>Коньяк <img class="alcohol" src="Photos/коньяк.webp" alt="We can't show you the photo, sorry"></p>
+        <p>Віскі <img class="alcohol" src="Photos/віскі.webp" alt="We can't show you the photo, sorry"></p>
+    </div>
+    <div>
+        <b>Гарячі страви:</b>
+        <p>Картопля фрі <img class="food" src="Photos/картопля_фрі.jpg" alt="We can't show you the photo, sorry"></p>
+        <p>Бургер <img class="food" src="Photos/бургер.jpg" alt="We can't show you the photo, sorry"></p>
+        <p>Нагетси <img class="food" src="Photos/нагетси.jpg" alt="We can't show you the photo, sorry"></p>
+        <p>Цибулеві кільця <img class="food" src="Photos/цибулеві_кільця.jpg" alt="We can't show you the photo, sorry"></p>
+        <p>Сирне плато <img class="food" src="Photos/сирне_плато.jpg" alt="We can't show you the photo, sorry"></p>
+   </div>
+<!--    <p id="contacts" class="contacts"><b>Contacts</b></p>-->
 
-    </ul>
+    <form id="contacts" class  ="contacts">
+        <p><b>Contacts</b></p>
+        <ul>
+            <li>Адреса</li>
+            <li>Номер телефону</li>
+            <li>Персонал</li>
+        </ul>
+
+    </form>
 </body>
 </html>

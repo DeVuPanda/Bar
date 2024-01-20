@@ -1,5 +1,5 @@
 
-.header{
+.header {
     display: block;
     background-color: #14adee;
     height: 50px;
@@ -7,6 +7,8 @@
     text-align: center;
     line-height: 50px;
     margin: 0;
+    border-radius: 10px;
+    transition: opacity 5s ease-in-out;
 }
 
 .infoAboutBar{
@@ -17,6 +19,7 @@
     text-align: left;
     line-height: 30px;
     margin: 0;
+    border-radius: 10px;
 }
 
 .barName{
@@ -26,6 +29,7 @@
     padding: 2px;
     text-align: left;
     margin: 0;
+    border-radius: 10px;
 }
 
 .barDescription{
@@ -35,6 +39,7 @@
     padding:2px;
     text-align: left;
     margin: 0;
+    border-radius: 10px;
 }
 
 .menu{
@@ -44,8 +49,50 @@
     padding: 2px;
     text-align: left;
     margin: 0;
+    border-radius: 10px;
 }
 .alcohol, .food{
     height: 120px;
     width: 120px;
+    margin: 50px 0 0 50px;
+    border-radius: 20px;
 }
+
+.navbar {
+    background-color: #333; /* Колір фону полоски навігації */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px; /* Відступ між пунктами навігації */
+}
+
+a {
+    text-decoration: none;
+    color: white; /* Колір тексту пунктів навігації */
+}
+
+a:hover {
+    color: #ffd700; /* Колір тексту при наведенні курсору */
+}
+
+.contacts{
+    background-color: #3466b0;
+    border-radius: 10px;
+}
+.contacts ul {
+    display: block;
+}
+
+
+
+
+
